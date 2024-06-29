@@ -1,2 +1,5 @@
-package Factory;public interface UIfactory {
+package Factory;
+
+public interface UIfactory {
+    Button createButton();
 }

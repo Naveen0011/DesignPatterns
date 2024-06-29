@@ -1,3 +1,5 @@
+package Builder;
+
 public class StudentBuilder {
     int id;
     String name;

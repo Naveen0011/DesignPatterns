@@ -1,2 +1,5 @@
-package Factory;public interface Button {
+package Factory;
+
+public interface Button {
+    public void onClick();
 }
