@@ -1,7 +1,7 @@
 package Factory;
 
 public class App {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Flutter f = new Flutter();
         UIfactory androidFactory = f.getUIFactory(PlatformEnum.ANDROID);
         Button androidButton = androidFactory.createButton();
