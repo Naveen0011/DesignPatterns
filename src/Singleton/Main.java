@@ -6,5 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Singleton s = Singleton.getInstance();
         System.out.println(s.random);
+        Singleton s1 = Singleton.getInstance();
+        System.out.println(s1.random);
     }
 }
